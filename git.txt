@@ -1,0 +1,64 @@
+git --version = git version
+
+dir = show all (file and folder)
+mkdir = make a folder/directory
+
+git status = show git repository
+git init = initialize git repository
+
+git config --global user.name "Md. Ibrahim Kholil"  = make global name
+git config user.name "Md. Ibrahim Kholil"  = make local name
+git config --globar user.name = show global name
+
+git config --global user.email "kholilbrahm4@gmail.com"  = make global email
+git config user.email "kholilbrahm4@gmail.com"  = make local email
+git config --globar user.email = show global email
+
+clear = delete previous text
+
+
+cd .. = 1 step back
+touch index.html [filename with extension] = create file
+
+notepad index.html = open in windows notepad
+cat index.html = show text inside the file
+
+git add index.html = add file on branch
+gti add . = add all files on branch
+
+git commit -m = wirte commit message
+git log = show commit + commit id + date
+git log --oneline = commit id sort
+git log --oneline -3 = how many commit you want to see [ 3 means, 3 commit]
+
+git remote = is connect with online
+git remote add origin (url) = add online rrpository
+git remote rm origin = old origin link delete/remove
+git remote -v = show origin link (with repository connect)
+git push -u = online and offline tracking
+git push -u origin master = push offline data into online
+
+
+git branch = show which branch
+git branch -a = show all branch
+git branch (branch name) = create new Local branch
+git checkout (local branch name) = switch master branch to local branch
+git merge (which branch want to merge / branch name) = merge branch
+
+
+
+
+
+…or create a new repository on the command line
+echo "# portfolio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kholilibrahim4/portfolio.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/kholilibrahim4/portfolio.git
+git branch -M main
+git push -u origin main
